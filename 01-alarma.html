@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Alarma</title>
+    </head>
+    <body>
+        <!--Recibes la tarea de construir un sistema de alarma para 
+            una fábrica de champús. Tu sistema recibe las siguientes 
+            variables: temperatura ambiente, humedad ambiental, número 
+            de trabajadores en la planta y nivel de líquido en los 
+            tanques. La alarma debe sonar siempre que la temperatura 
+            ambiente sea superior o inferior a los umbrales, si la humedad es superior al 50%, si hay más de 100 trabajadores en la planta al mismo tiempo, o si el nivel del líquido es superior al 90% (para evitar el desbordamiento).  -->
+            <h1>Fabrica de shampoo</h1>
+        <form action="">
+            <label for="tempA" id="LtempA">Temperatura ambiente:</label>
+            <input type="number" id="ItempA">
+
+            <p></p>
+
+            <label for="humedad" id="Lhumedad">Humedad ambiental:</label>
+            <input type="number" id="Ihumedad">
+
+            <p></p>
+
+            <label for="trabajadores" id="Ltrabajadores">Numero de trabajadores:</label>
+            <input type="number" id="Itrabajadores">
+
+            <p></p>
+
+            <label for="tanques" id="Ltanques">Nivel del liquido de los tanques:</label>
+            <input type="number" id="Itanques">
+
+            <p></p>
+
+            <button type="submit" id="enviar" onclick="alarma()">Enviar</button>
+
+        </form>
+        <script src="assets/js/alarma.js"></script>
+    </body>
+</html>
